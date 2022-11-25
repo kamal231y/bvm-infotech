@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>B. V. M. Infotech</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font-awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Slick Nav CSS -->
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Default Color CSS -->
+    <link rel="stylesheet" href="assets/css/color/default-color.css">
+    <!-- Color Switcher CSS -->
+    <link rel="stylesheet" href="assets/dist/color-switcher.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <script>
+        wimdow.dataLayer = wimdow.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-213604414-1');
+
+    </script>
+    <style type="text/css">
+        .our-features.in-wrapper {
+            background: #f3f3f3;
+            margin-bottom: 21px;
+        }
+
+        .our-features {
+            background: #09325b url(../img/resources/feature-bg.jpg) center center no-repeat;
+            position: relative;
+        }
+
+        .news-content {
+            padding-top: 25px;
+            padding-bottom: 20px;
+        }
+
+        .no-container.our-features .our-features-wrap {
+            padding-bottom: 10px;
+            border-bottom: 1px solid #f4f4f4;
+            /* margin-bottom: 40px; */
+        }
+
+        .no-container.our-features .single-our-feature {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .single-service-page .single-our-feature {
+            /* padding: 20px 15px !important; */
+            margin: 0 !important;
+        }
+
+        .no-container.our-features .single-our-feature .icon-box {
+            margin-bottom: 0;
+            margin-bottom: 20px;
+        }
+
+        .no-container.our-features .single-our-feature .icon-box {
+            color: #fbca00;
+        }
+
+
+        .our-features .single-our-feature .icon-box {
+            width: 98px;
+            text-align: center;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            height: 98px;
+            line-height: 98px;
+            margin-bottom: 36px;
+            transform: translate3d(0, 0, 0);
+            transition: all 0.5s ease;
+        }
+
+        .no-container.our-features .single-our-feature h3 {
+            color: #271374;
+        }
+
+        .no-container.our-features .single-our-feature p {
+            color: #000;
+
+        }
+
+
+        .our-features .single-our-feature {
+            text-align: center;
+            color: #fff;
+            padding: 25px 3px 25px 3px;
+            position: relative;
+            transition: all 0.5s ease;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="wrap b-button">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a data-toggle="modal" data-target="#myModal" class="enq-call blink">Enquiry Now </a>
+                </div>
+                <div class="col-6">
+                    <a href="tel:9930441153" class="enq-call blink">Call Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="callme">
+        <a href="tel:9930441153">
+            <div id="callmeMain"></div>
+        </a>
+    </div>
+    <span data-toggle="modal" data-target="#myModal" id="btn-fix"><img src="assets/img/feedback.png" alt=""></span>
+    <!-- Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-md">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- redirect Code -->
+                    <h4 class="modal-title">Enquiry Form
+                        <button type="button" class="close" data-dimdiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class=" col-md-12 col-xs-12">
+                            <form action="#" id="ContactUsCaptchaWebForm" method="post" onSubmit="return ValidateForm(this);">
+                                <div class="row">
+                                    <input id="name" name="name" class="form-control" placeholder="Name" type="text" required>
+                                    <input id="email" name="email" class="form-control" placeholder="Email" type="text" required>
+                                    <input type="text" name="mobile" class="form-control" placeholder="Mobile No" pattern="[0-9]{10,10}" autocomplete="on" class="form-control" required maxlength="10" required>
+                                    <textarea id="msg" name="msg" class="form-control" placeholder="Message" required></textarea>
+                                </div>
+                                <!-- Mention the Client Mail ID's on which information have to semd -->
+                                <!-- Mention the Client Mail ID's on which information have to semd -->
+                                <!-- Mention the Client Mail ID's on which information have to semd -->
+                                <input name="clientMailID" type="hidden" value="smeet@bvmindia.com" />
+                                <!-- Website Name where to divert for conversion -->
+                                <input name="website" type="hidden" value="#" />
+                                <!-- Auto Incremented -->
+                                <input name="loginID" type="hidden" value="   #" />
+                                <!-- Company Name -->
+                                <input name="companyName" type="hidden" value="BVM Infotech projector repair service" />
+                                <input class="btn sub-btn center-block" type="submit" id="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Header -->
+    <div class="header-top-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 header-top-area1">
+                    <a href="#"><i class="fa fa-map"></i>109, Mewad Industrial Estate, Patanwala Compound, LBS Marg, Shreyas Talkies, Ghatkopar West,Mumbai (Maharashtra) - 400086</a> <span class="seprator"></span>
+                </div>
+                <div class="col-lg-2 text-right">
+                    <div class="social-icon">
+                        <a href="tel:9930441153"><i class="fa fa-phone"></i> Call Us : 9930441153</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Emd Top Header -->
+    <!-- Main Menu -->
+    <div class="mainmenu-area mble-hddn">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo1.jpg" class="img-logo" alt="Logo" style="max-height:100px;"></a>
+                    </div>
+                    <!-- Responsive Menu -->
+                    <div class="responsive-menu-wrap"></div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="mainmenu">
+                        <ul id="navigation">
+                            <li class="active"><a href="default.html">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="tel:9930441153"><i class="fa fa-phone"></i> Call Us : 9930441153</a></li>
+                        </ul>
+                    </div>
+                    <!-- Search Modal -->
+                    <div class="modal fade search-modal" id="searchModal" tabimdex="-1">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-box">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dimdiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    </div>
+                                    <div class="modal-body no-padding">
+                                        <form class="search-form">
+                                            <input type="text" class="form-control" name="search" id="search" placeholder="Search...">
+                                            <button type="submit" class="btn search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Emd Main Menu -->
+    <nav class="navbar navbar-expamd-md bg-dark navbar-dark n-ds-none">
+        <!-- Bramd -->
+        <a class="navbar-bramd" href="#"><img src="assets/img/logo1.jpg" class="img-logo" alt="Logo" style="max-height: 100px;"></a>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Service">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Homepage Slider -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Imdicators -->
+        <ul class="carousel-imdicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/slider1.png" alt="Los Angeles">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/slider2.jpg" alt="Los Angeles">
+            </div>
+            <!-- <div class="carousel-item">
+          <img src="assets/img/slider3.png" alt="Los Angeles">
+        </div>-->
+        </div>
+        <!-- Left amd right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <!-- Emd Homepage Slider -->
+
+
+
+    <!-- Start About Us Area -->
+    <section class="cleaning-content-block about-us aboutone" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <h2>WELCOME TO B. V. M. Infotech</h2>
+                        <!--<p>Sephorra</p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="who-we-info">
+                        <p class="text-justify" style="color: #000000;">BVM Infotech is a certified independent projector repair company that provides fast and cost-effective solutions for your Projector repair and projector maintenance needs. Our projector repair service caters to Electronic Faults repair, projector boot failure, and overheating problems causing intermittent shutdowns. White dots on projected image. Dull picture, banding, horizontal and vertical lines across picture, color wheel replacement and projector fan repairs, etc.</p>
+
+                        <p class="text-justify" style="color: #000000;">All repairs are carried out using genuine replacement parts Free engineer's report on performance, lamp, and filter life with standard trade warranty after repair.</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="promo-video">
+                        <img src="assets/img/about.PNG" style="border-radius: 10px;" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end About Us Area -->
+
+
+
+    <!-- <div class="look-area">
+      <div class="container">
+        <div class="lock-slot">
+          <h4 class="look-hed">TAKE A LOOK</h4>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="loook-bg-img"><img src="assets/img/before.png"></div>
+            <div class="btn-look">Before</div>
+          </div>
+
+          <div class="col-lg-6 col-md-12">
+            <div class="loook-bg-img"><img src="assets/img/after.png"></div>
+            <div class="btn-look">After</div>
+          </div>
+
+        </div>
+      </div>
+    </div>-->
+
+
+
+
+
+
+
+    <!-- start service Us Area -->
+    <div class="working-info">
+        <div class="container" id="services">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <h2>Our Services</h2>
+                        <!--  <p>Sephorra</p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="single-working-info aaa">
+                        <img src="assets/img/ser1.jpg" alt="">
+                        <h3>Projector Service</h3>
+                        <p>BVM infotech certified independent projector repair company provide fast and cost effective solution for your Projector repair</p>
+                        <div class="btn-call aaa">
+                            <a href="tel:9930441153">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="single-working-info aaa">
+                        <img src="assets/img/ser2.jpg" alt="">
+                        <h3>Projector Accessories</h3>
+                        <p>We have professionals skilled in component level repairs of all types of projectors; LCOS, LCD, DLP, LED and Laser based projectors</p>
+                        <div class="btn-call aaa">
+                            <a href="tel:9930441153">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="single-working-info aaa">
+                        <img src="assets/img/ser3.jpg" alt="">
+                        <h3>Onsite Installation</h3>
+                        <p>All repairs are carried out using genuine replacement parts Free engineer's report on performance, with standard trade warranty.</p>
+                        <div class="btn-call aaa">
+                            <a href="tel:9930441153">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+    </div>
+    </div>
+
+
+
+    <div class="services-timing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="main-focus wow fadeInUp">
+                        <i class="fa fa-clock-o"></i>
+                        <h3>Best Services</h3>
+                        <p> <span>Services</span></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="main-focus wow fadeInUp" data-wow-delay="0.4s">
+                        <i class="fa fa-phone"></i>
+                        <h3>Any Questions?</h3>
+                        <p> <span><a href="tel:9930441153">9930441153</a></span></p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="main-focus wow fadeInUp" data-wow-delay="0.8s">
+                        <i class="fa fa-envelope-o"></i>
+                        <h3>Mail Us</h3>
+                        <p> <span><a href="mailto:smeet@bvmindia.com">smeet@bvmindia.com</a></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- start gallery Section -->
+
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Our Gallery</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="gallery-data">
+                        <div class="gallery-bg"><img src="assets/img/g1.png"> </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="gallery-data">
+                        <div class="gallery-bg"><img src="assets/img/g3.jpg"> </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 ">
+                    <div class="gallery-data">
+                        <div class="gallery-bg"><img src="assets/img/g2.jpg"> </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="gallery-data">
+                        <div class="gallery-bg"><img src="assets/img/g4.png"> </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="gallery-data">
+                        <div class="gallery-bg"><img src="assets/img/g5.png"> </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="gallery-data">
+                        <div class="gallery-bg"><img src="assets/img/g6.jpg"> </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="gallery-data">
+                        <div class="gallery-bg"><img src="assets/img/g7.jpg"> </div>
+                    </div>
+                </div>
+
+
+                <!--  <div class="col-lg-6 col-md-12 ">
+             <div class="gallery-data">
+               <div class="gallery-bg"><img src="assets/img/g8.png"> </div>
+             </div>
+          </div> 
+
+          <div class="col-lg-3 col-md-6 ">
+             <div class="gallery-data">
+               <div class="gallery-bg"><img src="assets/img/g9.png"> </div>
+             </div>
+          </div> 
+
+          <div class="col-lg-3 col-md-6 ">
+             <div class="gallery-data">
+               <video width="100%" height="260px" controls>
+                   <source src="assets/img/video1.mp4" type="video/mp4">
+                </video>
+             </div>
+          </div> -->
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Emd gallery Section -->
+
+    <!-- section -->
+
+    <section class="news-content single-service-page our-features in-wrapper no-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="our-features-wrap">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="single-our-feature">
+                                    <div class="icon-box">
+                                        <img src="assets/img/refresh.png" width="45px" height="45px">
+                                    </div>
+                                    <h3>Most leading brands recommend annual service to the projectors</h3>
+                                    <p>This can also assist in reducing the risk of adhoc breakdowns and extend the life of the projector. We are offering various projector cleaning services, ranging from the most basic filter clean, to the extensive deep optical clean</p>
+                                    <!--<p><a href="#">Read More</a></p>-->
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="single-our-feature">
+                                    <div class="icon-box">
+                                        <img src="assets/img/inspection.png" width="45px" height="45px">
+                                    </div>
+                                    <h3>Free Inspections &amp; Quotations</h3>
+                                    <p>Before carrying out any repair, we offer the customer a Free Inspection at our workshop. Once the fault has been diagnosed, a Free Quote will be sent detailing the repair cost. When we receive authorisation to proceed, the projector will repaired, fully tested</p>
+                                    <!--<p><a href="#">Read More</a></p>-->
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-lg-offset-0 col-md-offset-0 col-sm-offset-3 col-xs-offset-0">
+                                <div class="single-our-feature">
+                                    <div class="icon-box">
+                                        <img src="assets/img/repair.png" width="45px" height="45px">
+                                    </div>
+                                    <h3>Priority Inspection &amp; Repair</h3>
+                                    <p>If the customer requires an urgent projector repair, for a competitive fee we will ensure that the unit will be inspected by our qualified engineers within 24 hours of its arrival. A quote will then be sent for the repair. Once the customer accepts the quot</p>
+                                    <br>
+                                    <!--<p><a href="#">Read More</a></p>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="cleaning-content-block achivment-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 wow fadeInUp">
+                    <div class="counter-box">
+                        <i class="fa fa-calendar"></i>
+                        <h3 class="counter">10+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="counter-box">
+                        <i class="fa fa-user-plus"></i>
+                        <h3 class="counter">3000+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section class="cleaning-content-block contactUs contactone" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <h2>Contact Us</h2>
+                        <!-- <p>Sephorra</p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-5">
+                    <div class="address-area">
+                        <ul>
+                            <li>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <h3>Phone</h3>
+                                <p><a href="tel:9930441153">+91-9930441153</a></p>
+
+                            </li>
+                            <li>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <h3>Address</h3>
+                                <p> 109, Mewad Industrial Estate, Patanwala Compound, LBS Marg, Shreyas Talkies, Ghatkopar West,Mumbai (Maharashtra) - 400086 </p>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <h3>E-mail</h3>
+                                <p><a href="smeet@bvmindia.com">smeet@bvmindia.com</a></p>
+                                <p><a href="marketing@bvmindia.com">marketing@bvmindia.com</a></p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7">
+                    <div class="contact-form-area">
+                        <div class="contact-info text-center">
+                            <h2>Lets Talk About The Project</h2>
+                            <p>We are always ready to listen you first</p>
+                        </div>
+                        <form action="#" id="ContactUsCaptchaWebForm" method="post" onSubmit="return ValidateForm(this);">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" name="name" id="contact_name" placeholder="Name*" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" name="email" id="contact_email" placeholder="E-mail*" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" name="mobile" id="contact_phone" placeholder="Phone*" required restrict="A-Z\a-z\0-9">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mb-18">
+                                <textarea name="msg" id="contact_message" name="msg" rows="4" placeholder="Message*" required restrict="A-Z\a-z\0-9"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <div id="contact_semd_status"></div>
+                                <!-- Mention the Client Mail ID's on which information have to semd -->
+                                <input name="clientMailID" type="hidden" value="smeet@bvmindia.com" />
+                                <!-- Website Name where to divert for conversion -->
+                                <input name="website" type="hidden" value="#" />
+                                <!-- Auto Incremented -->
+                                <input name="loginID" type="hidden" value="   #" />
+                                <!-- Company Name -->
+                                <input name="companyName" type="hidden" value="BVM Infotech projector repair service" />
+                                <input type="submit" class="sbmt-btn" value="Get in touch">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start Latest News Area -->
+    <!-- Start scroll to top feature -->
+    <a href="#" id="back-to-top" title="Back to Top">
+        <i class="fa fa-long-arrow-up"></i>
+    </a>
+    <!-- Emd scroll to top feature -->
+    <!-- whats app icon start -->
+    <div class="whatsapp-icon">
+        <a href="https://api.whatsapp.com/semd?phone=9930441153">
+            <i class="fa fa-whatsapp"></i>
+        </a>
+    </div>
+    <!-- whats app icon emds -->
+    <!-- Footer Area -->
+    <footer class="site-footer ">
+        <!-- Footer Top Area -->
+        <div class="footer-top-area ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-wid">
+                            <!-- <div class="logo-two"><img src="assets/img/logo1.jpg"> </div>-->
+                            <h3 class="footer-wid-title">About Us</h3>
+                            <p class="text-justify">BVM Infotech is a certified independent projector repair company that provides fast and cost-effective solutions for your Projector repair and projector maintenance needs. Our projector repair service caters to Electronic Faults repair, projector boot failure, and overheating problems causing intermittent shutdowns. White dots on projected image. Dull picture, banding, horizontal and vertical lines across picture, color wheel replacement and projector fan repairs, etc.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-wid footer-menu pl-30">
+                            <h3 class="footer-wid-title">Quick Links</h3>
+                            <ul>
+                                <li><a href="index.html"><i class="fa fa-chevron-circle-right"></i> home</a></li>
+                                <li><a href="#about"><i class="fa fa-chevron-circle-right"></i> About</a></li>
+                                <li><a href="#services"><i class="fa fa-chevron-circle-right"></i> services</a></li>
+                                <li><a href="#gallery"><i class="fa fa-chevron-circle-right"></i> Gallery</a></li>
+                                <li><a href="#contact"><i class="fa fa-chevron-circle-right"></i> contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-wid">
+                            <h3 class="footer-wid-title">Enquire Now</h3>
+                            <form class="mf_form_validate " action="https://code.dvtpl.in/thanku.php" method="post" onSubmit="return ValidateForm(this);">
+                                <div class="form-group">
+                                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                                    <input type="text" name="name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    <input type="text" name="email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <input type="text" name="mobile" placeholder="Mobile Number">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="msg" rows="2" placeholder="Requirement"></textarea>
+                                </div>
+                                <input name="clientMailID" type="hidden" value="smeet@bvmindia.com/>
+                 <input name=" website" type="hidden" value="URL/thanku.html" />
+                                <input name="loginID" type="hidden" value="ID" />
+                                <input name="companyName" type="hidden" value="BVM Infotech projector repair service" />
+                                <button type="submit" class="btn-block">Send</button>
+                                <div class="server_response w-100">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-wid ttt">
+                            <h3 class="footer-wid-title ">Contact Us</h3>
+                            <ul class="opening-hour">
+                                <li>Address : <span>109, Mewad Industrial Estate, Patanwala Compound, LBS Marg, Shreyas Talkies, Ghatkopar West,Mumbai (Maharashtra) - 400086 </span></li>
+                                <li>Call Us : <span><a href="tel:9930441153">+91-9930441153</a></a></span> </li>
+                                <li>Mail :<span><a href="smeet@bvmindia.com">smeet@bvmindia.com</a></span></li>
+                                <li>Mail :<span><a href="marketing@bvmindia.com">marketing@bvmindia.com</a></span></li>
+                            </ul>
+                            <!--<div class="social-icos">    
+                  <ul>
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                      <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                      <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                  </ul>
+                  </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Emd Footer Top -->
+        <!-- Footer Bottom Area -->
+        <div class="footer-copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="text-center" style="margin-bottom:0px;">&copy; 2022 BVM infotech. All Rights Reserved | Design by
+                            <a href="https://www.digitalvisiontechnology.com/" target="blank" style="color:#FFF">Digital <span id="v">Vision</span> Technology Pvt Ltd</a> <span class="g">G</span><span class="o">o</span><span class="oo">o</span><span class="gg">g</span><span class="l">l</span><span class="e">e</span> <span class="p">Partner</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Emd Footer Bottom Area -->
+    </footer>
+    <!-- Emd Footer Area -->
+    <!-- jQuery min js -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <!-- Bootstrap JS file -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Popper JS -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Owl-Carousel JS file -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Slick-Nav JS file -->
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <!-- Magnific Popup JS file -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Mixitup JS file -->
+    <script src="assets/js/mixitup.min.js"></script>
+    <!-- WOW JS file -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Jquery Counterup JS file -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Waypoints JS file -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- Custom JS file -->
+    <script src="assets/js/active.js"></script>
+    <script>
+        $(document).ready(function() {
+
+
+
+            $('.navbar-collapse a').on('click', function() {
+                $(".navbar-collapse").collapse('hide');
+            });
+
+            $('#ourtestimonial').owlCarousel({
+                loop: true,
+                margin: 30,
+                nav: false,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        })
+
+    </script>
+</body>
+
+</html>
